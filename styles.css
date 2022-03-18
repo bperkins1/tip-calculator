@@ -1,0 +1,215 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  padding-top: 100px;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+}
+
+h3 {
+  line-height: 1rem;
+}
+
+
+input {
+  background-color: hsl(189, 41%, 97%);
+  font-size: 1.5rem;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+
+
+label {
+  text-align: right;
+  margin-left: 100px;
+  color: red;
+  font-weight: 400;
+  visibility: hidden;
+}
+
+
+/* removes spinners */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main {
+  text-align: center;
+  background-color: white;
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+/* style button group */
+.tip-rate {
+  margin: 5px 2px 7px 2px;
+  height: 45px;
+  width: 120px;
+  border-width: 0px;
+  border-radius: 5%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+.block1, .block2 {
+  display: inline-block;
+  height: 430px;
+  width: 400px;
+  margin: 30px;
+}
+
+.block1 {
+  text-align: left;
+}
+
+.block2 {
+  vertical-align: top;
+  border-radius: 5%;
+  text-align: left;
+}
+
+.bill, .number-people {
+  border-width: 0px;
+  border-radius: 5px;
+  color: hsl(184, 14%, 56%);
+  font-weight: 400;
+  text-align: right;
+  padding: 5px 15px;
+  width: 100%;
+  /* positions icon */
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+.bill {
+  background-image: url(images/icon-dollar.svg);
+}
+
+.number-people {
+  background-image: url(images/icon-person.svg);
+}
+
+.custom-button {
+  text-align: right;
+  color: hsl(186, 14%, 43%);
+}
+
+.answer-num {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 100px;
+}
+
+.second-heading {
+  margin-top: 50px;
+}
+
+.calculations {
+  margin: 60px 0px 40px 40px;
+}
+
+.reset-button {
+  width: 80%;
+  margin: 100px 10% 0 10%;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: hsl(172, 67%, 45%);
+  opacity: 0.3;
+  color: hsl(183, 100%, 15%);
+}
+
+.block2, button {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+
+button:hover, input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  opacity: 0.5;
+}
+
+input:focus {
+  border-color: hsl(172, 67%, 45%);
+  border-width:2px;
+  outline: none;
+}
+
+.reset-button:hover {
+  background-color: hsl(189, 41%, 97%);
+  opacity: 0.7;
+}
+
+h3, .subtext {
+  font-size: 1rem;
+}
+
+.subtext {
+  color: hsl(184, 14%, 56%);
+}
+
+.answer-num {
+  color: hsl(172, 67%, 45%);
+  text-align: right;
+}
+
+/* classes for javascript */
+.selected {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.active {
+  opacity: 1.0;
+}
+
+.error0 {
+  border-width: 2px;
+  border-color: red;
+}
+
+/* mobile version */
+@media (max-width: 375px) {
+  .main {
+    width: 375px;
+  }
+}
+
+
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+ }
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
